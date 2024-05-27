@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Menu Responsivo</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img src="/Imagens/logo4.jpg"></a>
+            </div>
+            <div class="nav-list">
+              <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="p2.html" class="nav-link">Introdução</a></li>
+                <li class="nav-item"><a href="Impact.html" class="nav-link">Impactos</a></li>
+                <li class="nav-item"><a href="p4.html" class="nav-link">Medidas</a></li>
+                <li class="nav-item"><a href="p5.html" class="nav-link">Saiba Mais</a></li>
+              </ul>
+          </div>    
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="Imagens/menu_white_36dp.svg"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+          <ul>
+            <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="p2.html" class="nav-link">Introdução</a></li>
+            <li class="nav-item"><a href="Impact.html" class="nav-link">Impactos</a></li>
+            <li class="nav-item"><a href="p4.html" class="nav-link">Medidas</a></li>
+            <li class="nav-item"><a href="p5.html" class="nav-link">Saiba Mais</a></li>
+          </ul>
+      </div>    
+
+    
+    </header>
+    <main>
+    <div class="blur">
+        <div class="texto">
+          <h1>Bibliográfia</h1>
+          <p>
+            Afim de saber mais sobre o assunto?<br>
+            Clique no links abaixo e veja mais!<br>
+            <a href="https://www.eco.unicamp.br/images/arquivos/artigos/LEP/L9/LEP9_06_RenatoGarcia.pdf">Unicamp</a> <br>
+            <a href="https://mapadeconflitos.ensp.fiocruz.br/conflito/sp-polo-petroquimico-em-area-urbana-densamente-habitada-emite-gases-que-podem-provocar-alteracoes-no-funcionamento-da-tireoide-afetando-particularmente-as-criancas/#:~:text=Desde%20sua%20constru%C3%A7%C3%A3o%2C%20o%20P%C3%B3lo,suas%20%C3%A1guas%20com%20efluentes%20qu%C3%ADmicos.">Mapa de Conflitos</a> <br>
+            <a href="https://www.piscodeluz.org/desenvolvimento-sustentavel?gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccNtdTCVt6eZ6KeeGtU98bZ_uFy3NPn-bIFe-y58nVz_FWi1jcAOksBoC93wQAvD_BwE">Pisco de Luz</a> <br>
+            <a href="http://www.frentequimicopetroplastico.com.br/?page_id=722">Frente Quimico</a> <br>
+            <a href="https://marsemfim.com.br/polo-petroquimico-capuava-o-novo-vale-da-morte-em-sp/">Mar sem Fim</a> <br>
+            <a href="https://www.teses.usp.br/teses/disponiveis/8/8136/tde-13032008141841/publico/DISSERTACAO_RODRIGO_ALTAIR_PINHO.pdf">USP</a> <br>
+            <a href="https://oeco.org.br/colunas/a-inaceitavel-poluicao-do-polo-petroquimico-de-capuava/">OEco</a> <br>
+            <a href="https://g1.globo.com/sp/sao-paulo/noticia/2021/04/29/audiencia-publica-discute-emissao-de-poluentes-no-polo-petroquimico-em-sp-moradores-reclamam-de-doencas-na-tireoide-causadas-por-poluicao.ghtml">G1.Globo</a> <br>
+            <a href="https://g1.globo.com/sp/sao-paulo/noticia/2023/01/19/entenda-como-denuncias-levaram-a-cpi-da-poluicao-petroquimica-que-apura-casos-de-tireoidite-de-hashimoto-na-zona-leste-de-sp.ghtml">G1.Globo</a> <br>
+            <a href="https://www.metropoles.com/brasil/como-e-a-vida-de-moradores-afetados-por-polo-petroquimico-em-sao-paulo">Metropoles</a> <br>
+          </p>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagens/img4.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Imagens/img1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    </main>
+    <script src="JS/Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+
+    <footer>
+        <small class="copy">
+            Copyright ©
+        </small>
+    </footer>
+</body>
+
+</html>
